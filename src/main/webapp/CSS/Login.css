@@ -1,0 +1,44 @@
+
+#LoginForm {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 600px;
+    float: left;
+}
+
+table, th, tr, td {
+    position: relative;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+table td {
+    background-color: lightgreen;
+}
+
+#main_id {
+    width: 100%;
+    align-content: center;
+}
+
+.front td {
+    height: 50px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 19px;
+}
+
+select {
+    height: 30px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}

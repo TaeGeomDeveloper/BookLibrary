@@ -1,0 +1,36 @@
+
+.box {
+    margin-top: 10px;
+    text-align: center;
+    border: 3px solid #73AD21;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 96%;
+    margin: 30px 10px 40px;
+}
+table .front th{
+    height: 35px;
+    background-color: black;
+    color: white;
+}
+tr {
+    border-bottom: 3px solid #ddd;
+}
+
+table th, td {
+    text-align: center;
+    border-bottom: 5px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+tr:hover {
+    background-color: coral;
+}
+
+
