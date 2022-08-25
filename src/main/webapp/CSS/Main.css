@@ -14,14 +14,15 @@ header {
 
 section {
     background-color: darkorange;
-    height: 700px;
+    display: -webkit-flex;
+    display: flex;
 }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-    float: left;
-    width: 20%;
-    height: 100%; /* only for demonstration, should be removed */
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     background: darkorange;
     padding: 20px;
 }
@@ -33,11 +34,11 @@ nav ul {
 }
 
 article {
-    float: left;
-    padding: 10px;
-    width: 80%;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
     background-color: orange;
-    height: 100%; /* only for demonstration, should be removed */
+    height: auto; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -48,8 +49,8 @@ section::after {
 
 @media (max-width: 600px) {
     nav, article {
-        width: 100%;
-        height: auto;
+        -webkit-flex-direction: column;
+        flex-direction: column;
     }
 }
 
@@ -83,11 +84,10 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
-
 /* Style the footer */
 footer {
     background-color: chocolate;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: white;
 }

@@ -1,7 +1,12 @@
 
+#login {
+
+}
+
 #LoginForm {
     margin-top: 10px;
     margin-left: 10px;
+    margin-bottom: 10px;
     width: 600px;
     float: left;
 }

@@ -36,6 +36,7 @@
     <nav>
 
     </nav>
+
     <article>
         <div id="Login">
             <table id="LoginForm">
@@ -50,8 +51,8 @@
                             <tr>
                                 <select name="선택">
                                     <option selected="selected">-- 선택 --</option>
-                                    <option> 관리자 </option>
-                                    <option> 일반 학생 </option>
+                                    <option> 관리자</option>
+                                    <option> 일반 학생</option>
                                 </select>
                                 <th> 아이디</th>
                                 <td style="width: 300px" align="left"><input type="text" placeholder="입력 해주세요"></td>
